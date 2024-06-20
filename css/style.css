@@ -20,7 +20,7 @@ body {
 
 .container {
     width: 90%;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -37,6 +37,7 @@ header {
 menu {
     width: 64px;
     height: 64px;
+    justify-content: centers;
     img {
         width: 64px;
         height: 64px;
@@ -79,7 +80,7 @@ main {
 }
 
 .logo {
-    width: 0%;
+    width: 100px;
     img {
         width: 100%;
     }
@@ -117,7 +118,7 @@ footer {
 }
 
 .logo-marvel {
-    width: 142px;
+    width: 182px;
     height: 32px;
 }
 
@@ -131,7 +132,7 @@ a.btn {
     align-items: center;
     width: 192px;
     height: 88px;
-    background-image: linear-gradient(#ffbb40, #f3cb80);
+    background-image: linear-gradient(#ed0000, #ff4949);
     border-radius: 8px;
     text-decoration: none;
     color: #000000;
@@ -142,5 +143,5 @@ a.btn {
 
 a.btn:hover {
     filter: brightness(100%);
-    box-shadow: 0px 0px 8px #f3cb80;
+    box-shadow: 0px 0px 8px #c54724;
 }
